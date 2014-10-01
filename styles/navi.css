@@ -20,9 +20,11 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	list-style:none;
 	}
 
-#topnav ul li ul{display:none;}
+#topnav ul li ul{
+	display:none;
+}
 
-#topnav ul li.active ul{
+#topnav ul li ul{
 	display:block;
 	position:absolute;
 	top:35px;
@@ -42,7 +44,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	color:#333333;
 	background-color:#E5E2C9;
 	}
-
+ /*前面的子項目*/
 #topnav ul ul li a:link, #topnav ul ul li a:visited, #topnav ul ul li a:hover{
 	float:left;
 	height:auto;
@@ -52,7 +54,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	background-color:#591434;
 	border-right:1px solid #FFFFFF;
 	}
-
+/*最後一個子項目*/
 #topnav ul ul li.last a{
 	margin-right:0;
 	padding:0;
@@ -63,6 +65,15 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	color:#FFFFFF;
 	background-color:#591434;
 	}
+#topnav ul li .
+#topnav ul li ul {
+	clear:left;
+	display: none;	
+}
+#topnav ul li:hover ul{
+	display: block;
+}
+
 
 /* ----------------------------------------------Column Navigation-------------------------------------*/
 
