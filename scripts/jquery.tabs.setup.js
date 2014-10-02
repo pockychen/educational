@@ -4,4 +4,14 @@ $(function() {
 			opacity: 'show'
 		}
 	}).tabs('rotate', 8000);
+	
+	$( ".menu" ).mouseover(function() {
+	    $( this ).addClass("active");
+	});
+	
+	$( ".menu" ).mouseleave(function() {
+	    $( this ).removeClass("active");
+	});
+	
+
 });
