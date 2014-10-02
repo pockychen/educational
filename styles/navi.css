@@ -8,6 +8,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 #topnav{
 	height:75px;
+	
 	overflow:hidden;
 	}
 
@@ -54,24 +55,37 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	background-color:#591434;
 	border-right:1px solid #FFFFFF;
 	}
+
+#topnav ul li ul .b1:hover #a1{
+	display: block;
+	color:#FFFFFF;
+	background-color:#591434;
+}
 /*最後一個子項目*/
 #topnav ul ul li.last a{
 	margin-right:0;
 	padding:0;
 	border-right:none;
 	}
+	
+#topnav ul li ul .b1:hover #a1{
+	display: block;
+	color:#FFFFFF;
+	background-color:#591434;
+}
 
 #topnav ul li.active a, #topnav ul li a:hover{
 	color:#FFFFFF;
 	background-color:#591434;
 	}
 #topnav ul li ul {
-	clear:left;
-	display: none;	
+	left: 0px;
+	display: none;
 }
 #topnav ul li:hover ul{
 	display: block;
 }
+
 
 
 /* ----------------------------------------------Column Navigation-------------------------------------*/
@@ -82,9 +96,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	margin:0 0 20px 0;
 	padding:0 0 14px 0;
 	font-size:20px;
-	font-weight:normal;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	color:#666666;
+	font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666;
 	background-color:#FFFFFF;
 	line-height:normal;
 	border-bottom:1px dotted #666666;

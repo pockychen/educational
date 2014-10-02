@@ -32,7 +32,7 @@ br.clear{clear:both; margin-top:-15px;}
 
 a{outline:none; text-decoration:none;}
 
-.fl_left{float:left;}
+.fl_left{text-align: center;}
 .fl_right{float:right;}
 
 .imgl, .imgr{border:1px solid #999999; padding:5px;}
